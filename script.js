@@ -2,4 +2,4 @@
 var browserInfoElement = document.getElementById("browser-info");
 var browserName = navigator.appName;
 var version = navigator.appVersion;
-browserInfoElement.innerContent = "You are using " + browserName + " version " + version;
+browserInfoElement.textContent = "You are using " + browserName + " version " + version;
